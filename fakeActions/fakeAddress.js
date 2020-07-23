@@ -1,6 +1,8 @@
 const _ = require('lodash');
-const {data, province, city, area, town} = require('province-city-china/data');
-
+import province from '../addressData/province.json'
+import town from '../addressData/town.json'
+import city from '../addressData/city.json'
+import area from '../addressData/area.json'
 const GenerateRandomAddress = function () {
     function getSample(item) {
         return _.sample(item)
