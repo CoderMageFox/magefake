@@ -1,0 +1,40 @@
+{
+  "name": "magefake",
+  "version": "0.0.1",
+  "description": "a worlflow for fake data.",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel ./index.js --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoderMageFox/magefake.git"
+  },
+  "keywords": [
+    "fakedata",
+    "mock",
+    "alfred",
+    "workflow"
+  ],
+  "author": "CoderMageFox",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CoderMageFox/magefake/issues"
+  },
+  "homepage": "https://github.com/CoderMageFox/magefake#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.10.4",
+    "alfy": "^0.9.1",
+    "dayjs": "^1.8.30",
+    "git-cz": "^4.7.0",
+    "lodash": "^4.17.19",
+    "uglify-js": "^3.10.0",
+    "uglifyjs": "^2.4.11"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "province-city-china": "^6.0.3"
+  }
+}
