@@ -1,6 +1,6 @@
 {
   "name": "magefake",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "a workflow for fake data.",
   "main": "index.js",
   "scripts": {
