@@ -18,7 +18,7 @@ const GenerateRandomBankInfo =  function() {
    const randomBank = _.sample(BankData);
    //未实装银行卡校验,先凑合用着.只生成19位
     const restNum = _.random(1111111111111,9999999999999)
-    console.log(`${randomBank.name}-${randomBank.number}${restNum}`.length)
+    return `${randomBank.name}-${randomBank.number}${restNum}`
 }
 
 export default GenerateRandomBankInfo
