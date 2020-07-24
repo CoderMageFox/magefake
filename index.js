@@ -25,7 +25,7 @@ const featureList = [
         title: '生成随机地址',
         subtitle:`${generateResult.address}`,
         arg:`${generateResult.address}`,
-    },
+    }
 ]
 class FakeEventBus{
     constructor() {
