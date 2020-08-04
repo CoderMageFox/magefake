@@ -5,3 +5,4 @@
 
 使用关键字:fake
 
+![avatar](./img.jpg)
